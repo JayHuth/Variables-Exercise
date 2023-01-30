@@ -4,7 +4,14 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            string myName = "Justin";
+            int myAge = 26;
+            string myHobbie = "rock climbing";
+            char mycharacter = '&';
+            decimal myDecimal = 199.2m;
+
+            Console.WriteLine($"my name is {myName}, I am {myAge} years old. I enjoy {myHobbie}. I have {myDecimal} in my checking account.");
+          
         }
     }
 }
